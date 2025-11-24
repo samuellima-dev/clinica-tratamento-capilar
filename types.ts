@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { ElementType } from 'react';
 
 export interface Service {
   id: string;
   title: string;
   description: string;
-  icon: React.ElementType;
+  icon: ElementType;
 }
 
 export interface CaseStudy {
