@@ -75,10 +75,18 @@ const FloatingChat: React.FC = () => {
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`${isOpen ? 'bg-slate-700' : 'bg-green-500 hover:bg-green-600'} text-white p-4 rounded-full shadow-lg shadow-slate-900/20 transition-all duration-300 hover:scale-105 flex items-center justify-center`}
+        className={`${isOpen ? 'bg-slate-700 text-white' : 'bg-white text-slate-900 hover:bg-slate-50'} p-4 rounded-full shadow-lg shadow-slate-900/20 transition-all duration-300 hover:scale-105 flex items-center justify-center border border-slate-100`}
         aria-label="Abrir chat"
       >
-        {isOpen ? <X size={24} /> : <MessageCircle size={28} fill="currentColor" className="text-white" />}
+        {isOpen ? (
+          <X size={24} />
+        ) : (
+          <img 
+            src="https://icones.pro/wp-content/uploads/2021/02/icone-du-logo-whatsapp-bleu.png" 
+            alt="WhatsApp" 
+            className="w-8 h-8 object-contain"
+          />
+        )}
       </button>
     </div>
   );

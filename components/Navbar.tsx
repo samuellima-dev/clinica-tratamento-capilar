@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Activity } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { NavItem } from '../types';
 
 const navItems: NavItem[] = [
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-blue-700 rounded-lg flex items-center justify-center text-white shadow-lg shadow-blue-900/20">
-              <Activity size={18} />
+              <span className="font-serif font-bold text-lg">R</span>
             </div>
             <span className="font-serif text-2xl font-bold text-slate-900 tracking-tight">
               Revita <span className="text-blue-700">Fio</span>

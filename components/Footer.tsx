@@ -1,5 +1,5 @@
 import React from 'react';
-import { Activity, Instagram, Facebook, Linkedin } from 'lucide-react';
+import { Instagram, Facebook, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
                 <div className="w-8 h-8 bg-blue-700 rounded-lg flex items-center justify-center text-white">
-                <Activity size={18} />
+                  <span className="font-serif font-bold text-lg">R</span>
                 </div>
                 <span className="font-serif text-2xl font-bold text-white tracking-tight">
                 Revita <span className="text-blue-500">Fio</span>
