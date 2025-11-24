@@ -74,7 +74,7 @@ const ContactForm: React.FC = () => {
                   <h4 className="font-bold text-white text-lg">Unidade São Lourenço da Mata</h4>
                   <p className="text-blue-200 text-sm mt-1">R. Alm. Tamandaré, 239 - Centro, São Lourenço da Mata - PE</p>
                   <a 
-                    href="https://wa.me/5581995970028"
+                    href="https://wa.me/558195970028"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-300 text-sm mt-1 font-semibold flex items-center hover:text-white transition-colors cursor-pointer"
@@ -84,7 +84,7 @@ const ContactForm: React.FC = () => {
                       alt="WhatsApp" 
                       className="w-4 h-4 mr-1.5 object-contain"
                     />
-                    WhatsApp: (81) 99597-0028
+                    WhatsApp: (81) 9597-0028
                   </a>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const ContactForm: React.FC = () => {
                   <h4 className="font-bold text-white text-lg">Unidade Carpina</h4>
                   <p className="text-blue-200 text-sm mt-1">R. Dom Rinaldi, 439 - São José, Carpina - PE (Galeria Três Marias)</p>
                   <a 
-                    href="https://wa.me/5581997681984"
+                    href="https://wa.me/558197681984"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-300 text-sm mt-1 font-semibold flex items-center hover:text-white transition-colors cursor-pointer"
@@ -108,7 +108,7 @@ const ContactForm: React.FC = () => {
                       alt="WhatsApp" 
                       className="w-4 h-4 mr-1.5 object-contain"
                     />
-                    WhatsApp: (81) 99768-1984
+                    WhatsApp: (81) 9768-1984
                   </a>
                 </div>
               </div>
