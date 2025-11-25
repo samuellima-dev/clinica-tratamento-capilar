@@ -6,10 +6,12 @@ const Footer: React.FC = () => {
     <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-                <div className="w-8 h-8 bg-blue-700 rounded-lg flex items-center justify-center text-white">
-                  <span className="font-serif font-bold text-lg">R</span>
-                </div>
+            <div className="flex items-center space-x-3 mb-4 md:mb-0">
+                <img 
+                  src="https://lh3.googleusercontent.com/d/15Q5U84Vad80yHGqWIUD5e9HgIHRZw3F4" 
+                  alt="Revita Fio Logo" 
+                  className="w-12 h-12 object-contain rounded-lg" 
+                />
                 <span className="font-serif text-2xl font-bold text-white tracking-tight">
                 Revita <span className="text-blue-500">Fio</span>
                 </span>

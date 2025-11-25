@@ -10,8 +10,6 @@ const FloatingChat: React.FC = () => {
     e.preventDefault();
     if (!name || !phone) return;
 
-    // Format message for WhatsApp
-    // Uses the user's provided phone in the message body, but sends TO the clinic's number.
     const message = `Olá! Meu nome é ${name} e meu telefone é ${phone}. Gostaria de saber mais sobre a Reprogramação Capilar.`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/5581997681543?text=${encodedMessage}`;
@@ -72,19 +70,19 @@ const FloatingChat: React.FC = () => {
         </div>
       )}
 
-      {/* Floating Button */}
+      {/* Floating Button - Forced Circle Shape with Specific Image */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`${isOpen ? 'bg-slate-700 text-white' : 'bg-white text-slate-900 hover:bg-slate-50'} p-4 rounded-full shadow-lg shadow-slate-900/20 transition-all duration-300 hover:scale-105 flex items-center justify-center border border-slate-100`}
-        aria-label="Abrir chat"
+        className="w-16 h-16 rounded-full bg-white shadow-2xl border border-slate-200 flex items-center justify-center transition-transform hover:scale-105 focus:outline-none overflow-hidden p-0"
+        aria-label={isOpen ? "Fechar chat" : "Abrir conversa no WhatsApp"}
       >
         {isOpen ? (
-          <X size={24} />
+          <X size={24} className="text-slate-600" />
         ) : (
           <img 
-            src="https://icones.pro/wp-content/uploads/2021/02/icone-du-logo-whatsapp-bleu.png" 
+            src="https://img.cdndsgni.com/preview/10000403.jpg" 
             alt="WhatsApp" 
-            className="w-8 h-8 object-contain"
+            className="w-full h-full object-cover"
           />
         )}
       </button>

@@ -41,10 +41,12 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-700 rounded-lg flex items-center justify-center text-white shadow-lg shadow-blue-900/20">
-              <span className="font-serif font-bold text-lg">R</span>
-            </div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://lh3.googleusercontent.com/d/15Q5U84Vad80yHGqWIUD5e9HgIHRZw3F4" 
+              alt="Revita Fio Logo" 
+              className="w-12 h-12 object-contain rounded-lg" 
+            />
             <span className="font-serif text-2xl font-bold text-slate-900 tracking-tight">
               Revita <span className="text-blue-700">Fio</span>
             </span>
